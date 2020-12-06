@@ -19,7 +19,7 @@ function API (opts) {
 
   // set default township server & routes for dwebx.org
   if (!townshipOpts.config) townshipOpts.config = {}
-  if (!townshipOpts.config.filename) townshipOpts.config.filename = '.datrc'
+  if (!townshipOpts.config.filename) townshipOpts.config.filename = '.dwebxrc'
   if (!townshipOpts.server) townshipOpts.server = SERVER
   if (!opts.routes && apiPath) {
     townshipOpts.routes = {

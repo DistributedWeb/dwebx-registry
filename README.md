@@ -45,7 +45,7 @@ registry.login({email: 'karissa', password: 'my passw0rd r0cks!'}, function () {
 
   * `opts.server`: the registry server. Default is `https://dwebx.org`
   * `opts.apiPath`: registery server API path, e.g. we use `/api/v1` for dwebx.org. This will overwrite default township routes to use server + apiPath.
-  * `opts.config.filename`: defaults to `~.datrc` instead of township defaults.
+  * `opts.config.filename`: defaults to `~.dwebxrc` instead of township defaults.
 
 Other options are passed to [township-client](https://github.com/township/township-client), these include:
 
